@@ -1,0 +1,804 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>周于希无极圣光套图-主题图集与视觉解析</title>
+  <meta name="description" content="周于希无极圣光套图收录于2026年11月更新的主题图集观察页，梳理圣光构图、光线层次与服装材质的视觉档案，附带套图参数、观看入口、常见问题与用户讨论。">
+  <meta name="keywords" content="周于希无极圣光套图">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231b1b2f'/%3E%3Cpath d='M16 5l3 8 8 .8-6 5.4 1.8 8.2L16 23l-6.6 4.4L11.2 19.2 5 13.8l8-.8z' fill='%23f2c94c'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #0f0f1a;
+      --bg-soft: #171728;
+      --panel: #1e1e33;
+      --panel-2: #252542;
+      --line: #34345a;
+      --text: #eceaf5;
+      --muted: #a6a3c2;
+      --gold: #f2c94c;
+      --gold-soft: #f7df8a;
+      --cyan: #7fd4e8;
+      --rose: #e88ab0;
+      --radius: 14px;
+      --radius-sm: 9px;
+      --shadow: 0 12px 30px rgba(0,0,0,.35);
+      --font-head: "STSong", "Songti SC", "Noto Serif SC", serif;
+      --font-body: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+      --space: 1rem;
+      --announce-h: 40px;
+      --header-h: 64px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: calc(var(--announce-h) + var(--header-h) + 8px); }
+    body {
+      margin: 0;
+      font-family: var(--font-body);
+      background:
+        radial-gradient(1200px 500px at 85% -100px, rgba(127,212,232,.10), transparent 60%),
+        radial-gradient(900px 500px at 10% 0, rgba(242,201,76,.10), transparent 55%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      font-size: 16px;
+    }
+    a { color: var(--gold-soft); text-decoration: none; }
+    a:hover { color: #fff; }
+    a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+    img { max-width: 100%; display: block; }
+    h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.35; margin: 0 0 .6em; font-weight: 700; }
+    h2 { font-size: 1.6rem; letter-spacing: .02em; }
+    h3 { font-size: 1.15rem; color: var(--gold-soft); }
+    p { margin: 0 0 1em; }
+    ul, ol { margin: 0 0 1em; padding-left: 1.3em; }
+    li { margin-bottom: .35em; }
+    .wrap { width: min(1200px, 100% - 2.5rem); margin-inline: auto; }
+    .announce {
+      position: sticky; top: 0; z-index: 60;
+      background: linear-gradient(90deg, #2a2440, #3a2f2a 60%, #2a2440);
+      border-bottom: 1px solid var(--line);
+      font-size: .86rem;
+      color: var(--gold-soft);
+      height: var(--announce-h);
+      display: flex; align-items: center;
+    }
+    .announce .wrap { display: flex; gap: .55rem; align-items: center; flex-wrap: nowrap; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+    .announce .tag {
+      background: var(--gold); color: #1b1b2f; font-weight: 700;
+      padding: .05rem .45rem; border-radius: 999px; font-size: .74rem; letter-spacing: .06em;
+    }
+    .announce a { color: #fff; border-bottom: 1px dashed rgba(255,255,255,.4); }
+    .site-header {
+      position: sticky; top: var(--announce-h); z-index: 55;
+      background: rgba(15,15,26,.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+      height: var(--header-h);
+    }
+    .header-inner { display: flex; align-items: center; gap: 1rem; height: var(--header-h); }
+    .brand { display: flex; align-items: center; gap: .55rem; flex-shrink: 0; }
+    .brand svg { width: 34px; height: 34px; flex-shrink: 0; }
+    .brand .brand-text {
+      font-family: var(--font-head); font-size: 1.02rem; font-weight: 700; color: #fff;
+      letter-spacing: .02em; line-height: 1.15;
+    }
+    .main-nav { display: flex; gap: .15rem; flex: 1; overflow-x: auto; scrollbar-width: none; }
+    .main-nav::-webkit-scrollbar { display: none; }
+    .main-nav a {
+      white-space: nowrap; font-size: .86rem; color: var(--muted);
+      padding: .45rem .62rem; border-radius: 999px;
+    }
+    .main-nav a:hover, .main-nav a.active { color: #fff; background: rgba(242,201,76,.12); }
+    .header-actions { display: flex; align-items: center; gap: .55rem; flex-shrink: 0; }
+    .search-box { position: relative; }
+    .search-box input {
+      width: 150px; max-width: 34vw; background: var(--panel); border: 1px solid var(--line);
+      color: var(--text); border-radius: 999px; padding: .42rem .8rem; font-size: .84rem;
+    }
+    .search-box input::placeholder { color: #7b7898; }
+    .search-feedback {
+      position: absolute; right: 0; top: 112%; min-width: 200px; max-width: 280px;
+      background: var(--panel-2); border: 1px solid var(--line); border-radius: var(--radius-sm);
+      padding: .7rem .9rem; font-size: .82rem; display: none; box-shadow: var(--shadow);
+      color: var(--muted); z-index: 70;
+    }
+    .search-feedback.show { display: block; }
+    .menu-toggle {
+      display: none; background: transparent; border: 1px solid var(--line); color: var(--text);
+      border-radius: 9px; padding: .35rem .6rem; font-size: 1.1rem; cursor: pointer; line-height: 1;
+    }
+    .hero {
+      padding: 3rem 0 3.2rem; position: relative; overflow: hidden;
+    }
+    .hero-grid { display: grid; gap: 2rem; grid-template-columns: 1.1fr .9fr; align-items: center; }
+    .hero-copy .eyebrow {
+      display: inline-flex; align-items: center; gap: .5rem; font-size: .78rem; letter-spacing: .18em;
+      color: var(--cyan); text-transform: uppercase; margin-bottom: 1rem;
+    }
+    .hero-copy .eyebrow::before { content: ""; width: 26px; height: 1px; background: var(--cyan); }
+    h1 { font-size: clamp(1.9rem, 4.4vw, 3.1rem); margin-bottom: .5em; color: #fff; letter-spacing: .01em; }
+    .hero-desc { color: var(--muted); max-width: 34em; font-size: 1.02rem; }
+    .hero-cta { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.6rem; }
+    .btn {
+      display: inline-flex; align-items: center; gap: .4rem; padding: .62rem 1.2rem;
+      border-radius: 999px; font-size: .9rem; font-weight: 600; border: 1px solid transparent;
+      transition: transform .18s ease, background .18s ease;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-gold { background: var(--gold); color: #201b0c; }
+    .btn-ghost { border-color: var(--line); color: var(--text); background: rgba(255,255,255,.02); }
+    .hero-art { position: relative; min-height: 320px; display: grid; place-items: center; }
+    .hero-art svg { width: 100%; height: auto; max-height: 420px; filter: drop-shadow(0 20px 40px rgba(0,0,0,.5)); }
+    .hero-stats { display: flex; gap: 1.6rem; margin-top: 2rem; flex-wrap: wrap; }
+    .hero-stats .stat strong { display: block; font-family: var(--font-head); font-size: 1.45rem; color: var(--gold-soft); }
+    .hero-stats .stat span { font-size: .78rem; color: var(--muted); letter-spacing: .04em; }
+    .section { padding: 2.4rem 0; border-top: 1px solid rgba(52,52,90,.5); }
+    .section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.4rem; flex-wrap: wrap; }
+    .section-head p { color: var(--muted); font-size: .9rem; margin: 0; max-width: 42em; }
+    .layout-main { display: grid; grid-template-columns: 1fr 300px; gap: 2.2rem; align-items: start; }
+    .content-col > .section:first-child { border-top: 0; padding-top: 0; }
+    .side-col { position: sticky; top: calc(var(--announce-h) + var(--header-h) + 16px); display: grid; gap: 1.1rem; }
+    .side-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.1rem 1.2rem; }
+    .side-card h3 { font-size: .98rem; margin-bottom: .7rem; }
+    .side-card ul { list-style: none; padding: 0; margin: 0; }
+    .side-card li { padding: .3rem 0; border-bottom: 1px dashed rgba(52,52,90,.7); font-size: .86rem; }
+    .side-card li:last-child { border-bottom: 0; }
+    .side-card li a { color: var(--muted); }
+    .side-card li a:hover { color: var(--gold-soft); }
+    .grid-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.1rem; }
+    .card {
+      background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 1.15rem 1.2rem; transition: transform .18s ease, border-color .18s ease;
+    }
+    .card:hover { transform: translateY(-3px); border-color: #56568c; }
+    .card h3 { margin-bottom: .35rem; font-size: 1.02rem; }
+    .card .meta { font-size: .74rem; color: var(--cyan); letter-spacing: .05em; margin-bottom: .45rem; text-transform: uppercase; }
+    .card p { font-size: .88rem; color: var(--muted); margin: 0; }
+    .card .tags { margin-top: .7rem; display: flex; flex-wrap: wrap; gap: .35rem; }
+    .tagchip {
+      font-size: .72rem; border: 1px solid var(--line); border-radius: 999px;
+      padding: .1rem .55rem; color: var(--muted); background: rgba(255,255,255,.02);
+    }
+    .compact-list { list-style: none; padding: 0; margin: 0; display: grid; gap: .55rem; }
+    .compact-list li {
+      display: flex; gap: .9rem; align-items: baseline; padding: .65rem .9rem;
+      background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-sm); font-size: .9rem;
+    }
+    .compact-list time { color: var(--cyan); font-size: .78rem; flex-shrink: 0; min-width: 4.6em; }
+    .compact-list a { color: var(--text); }
+    .compact-list a:hover { color: var(--gold-soft); }
+    .depth { background: linear-gradient(180deg, rgba(242,201,76,.06), transparent 60%); padding: 1.5rem 1.4rem; border: 1px solid var(--line); border-radius: var(--radius); }
+    .depth h3 { margin-top: 1.2rem; }
+    .depth h3:first-of-type { margin-top: 0; }
+    .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: .7rem 0 1rem; }
+    .compare div { background: var(--panel-2); border-radius: var(--radius-sm); padding: .9rem 1rem; border-left: 3px solid var(--cyan); }
+    .compare div:last-child { border-left-color: var(--rose); }
+    .compare h4 { font-size: .86rem; color: var(--cyan); margin-bottom: .3rem; font-family: var(--font-body); letter-spacing: .04em; }
+    .compare div:last-child h4 { color: var(--rose); }
+    .compare p { font-size: .85rem; color: var(--muted); margin: 0; }
+    .steps { list-style: none; counter-reset: step; padding: 0; display: grid; gap: .8rem; }
+    .steps li { counter-increment: step; display: flex; gap: .9rem; align-items: flex-start; font-size: .9rem; }
+    .steps li::before {
+      content: counter(step, decimal-leading-zero); font-family: var(--font-head);
+      color: var(--gold); font-size: .95rem; border: 1px solid var(--line); border-radius: 8px;
+      padding: .05rem .5rem; flex-shrink: 0; background: var(--panel);
+    }
+    .faq details {
+      background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-sm);
+      padding: .7rem 1rem; margin-bottom: .6rem;
+    }
+    .faq summary { cursor: pointer; font-weight: 600; color: var(--text); list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::after { content: "+"; color: var(--gold); font-size: 1.1rem; line-height: 1; flex-shrink: 0; }
+    .faq details[open] summary::after { content: "–"; }
+    .faq details p { margin: .6rem 0 .15rem; color: var(--muted); font-size: .88rem; }
+    .comments { display: grid; gap: .8rem; }
+    .comment {
+      background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-sm);
+      padding: .8rem 1rem; font-size: .88rem; color: var(--muted);
+    }
+    .comment .who { color: var(--gold-soft); font-weight: 600; font-size: .82rem; margin-right: .55rem; }
+    .comment .where { color: var(--cyan); font-size: .74rem; }
+    .tag-index { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .tag-index a {
+      border: 1px solid var(--line); border-radius: 999px; padding: .28rem .8rem; font-size: .82rem;
+      color: var(--muted); background: var(--panel);
+    }
+    .tag-index a:hover { color: #fff; border-color: var(--gold); }
+    .timeline { list-style: none; padding: 0; margin: 0; position: relative; padding-left: 1.5rem; }
+    .timeline::before { content: ""; position: absolute; left: 5px; top: 6px; bottom: 6px; width: 1px; background: var(--line); }
+    .timeline li { position: relative; margin-bottom: 1rem; font-size: .9rem; }
+    .timeline li::before { content: ""; position: absolute; left: -1.5rem; top: .45rem; width: 9px; height: 9px; border-radius: 50%; background: var(--gold); border: 2px solid var(--bg); }
+    .timeline time { display: block; font-size: .76rem; color: var(--cyan); letter-spacing: .04em; }
+    .quote-card {
+      border-left: 4px solid var(--gold); background: var(--panel); padding: 1rem 1.2rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      font-family: var(--font-head); font-size: 1rem; color: var(--gold-soft); margin-bottom: 1rem;
+    }
+    .quote-card span { display: block; font-family: var(--font-body); font-size: .78rem; color: var(--muted); margin-top: .4rem; letter-spacing: .04em; }
+    .site-footer {
+      border-top: 1px solid var(--line); background: var(--bg-soft); padding: 2.4rem 0 1.6rem; margin-top: 1.5rem;
+    }
+    .footer-grid { display: grid; grid-template-columns: 1.3fr repeat(3, 1fr); gap: 1.8rem; }
+    .footer-brand p { font-size: .86rem; color: var(--muted); max-width: 25em; }
+    .footer-col h4 { font-size: .86rem; letter-spacing: .08em; color: var(--gold-soft); margin-bottom: .6rem; }
+    .footer-col ul { list-style: none; padding: 0; margin: 0; }
+    .footer-col li { margin-bottom: .35rem; }
+    .footer-col a { color: var(--muted); font-size: .84rem; }
+    .footer-col a:hover { color: #fff; }
+    .footer-bottom { border-top: 1px solid var(--line); margin-top: 1.8rem; padding-top: 1rem; font-size: .76rem; color: #7b7898; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+    #toTop {
+      position: fixed; right: 18px; bottom: 18px; z-index: 80;
+      width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line);
+      background: var(--panel-2); color: var(--gold-soft); font-size: 1.2rem; cursor: pointer;
+      opacity: 0; visibility: hidden; transition: opacity .2s, visibility .2s, transform .2s;
+      box-shadow: var(--shadow);
+    }
+    #toTop.show { opacity: 1; visibility: visible; }
+    #toTop:hover { transform: translateY(-3px); }
+    .side-card .side-nav a.active { color: var(--gold-soft); font-weight: 600; }
+    @media (max-width: 960px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero-art { order: -1; min-height: 220px; }
+      .layout-main { grid-template-columns: 1fr; }
+      .side-col { position: static; grid-row: 2; }
+      .grid-cards { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 760px) {
+      .main-nav {
+        display: none; position: absolute; top: var(--header-h); left: 0; right: 0;
+        background: var(--bg-soft); border-bottom: 1px solid var(--line); padding: .6rem 1.25rem 1rem;
+        flex-direction: column; gap: .1rem; z-index: 50; max-height: 70vh; overflow-y: auto;
+      }
+      .main-nav.open { display: flex; }
+      .main-nav a { padding: .55rem .4rem; border-radius: 6px; font-size: .95rem; }
+      .menu-toggle { display: inline-block; }
+      .search-box input { width: 120px; }
+      h2 { font-size: 1.35rem; }
+      .compare { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .hero { padding: 2.2rem 0 2.4rem; }
+      .hero-stats { gap: 1.1rem; }
+      .section { padding: 2rem 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+  <div class="announce" id="announce">
+    <div class="wrap">
+      <span class="tag">更新</span>
+      <span>2026年11月8日 · 圣光光线参数表增补至 09:42 版本，新增柔光反光板位 2 处</span>
+      <a href="/#latest">查看更新</a>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-inner">
+      <a class="brand" href="/#top" aria-label="返回顶部">
+        <svg viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="10" fill="#252542"/>
+          <path d="M20 6l3.4 9.2 9.8 1-7.4 6.3 2.2 9.7L20 26.5l-8 5.7 2.2-9.7-7.4-6.3 9.8-1z" fill="#f2c94c"/>
+          <circle cx="20" cy="20" r="4.2" fill="#0f0f1a"/>
+          <circle cx="20" cy="20" r="1.8" fill="#f2c94c"/>
+        </svg>
+        <span class="brand-text">周于希无极圣光套图</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">☰ 菜单</button>
+      <nav class="main-nav" id="mainNav" aria-label="主题导航">
+        <a href="/#overview">领域概览</a>
+        <a href="/#featured">精选套图</a>
+        <a href="/#latest">最新更新</a>
+        <a href="/#categories">分类入口</a>
+        <a href="/#depth">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见问答</a>
+        <a href="/#comments">用户评论</a>
+        <a href="/#news">相关资讯</a>
+        <a href="/#recommend">相关推荐</a>
+      </nav>
+      <div class="header-actions">
+        <div class="search-box">
+          <input type="search" id="siteSearch" placeholder="搜索套图关键词…" aria-label="站内搜索">
+          <div class="search-feedback" id="searchFeedback" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">视觉档案 · 光线与材质观察</span>
+          <h1 id="heroTitle">周于希无极圣光套图</h1>
+          <p class="hero-desc">以无极圣光为基调的图集整理，聚焦柔光罩位置、主光功率与纱质服装反光之间的层次关系。每套图附拍摄参数摘要，给出可对照的布光判断。</p>
+          <div class="hero-cta">
+            <a class="btn btn-gold" href="/#featured">浏览精选套图</a>
+            <a class="btn btn-ghost" href="/#depth">阅读光线解析</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><strong>12</strong><span>收录套图组</span></div>
+            <div class="stat"><strong>36</strong><span>布光参数条目</span></div>
+            <div class="stat"><strong>2026.11.08</strong><span>参数表更新</span></div>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 420 360" role="presentation">
+            <defs>
+              <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+                <stop offset="0%" stop-color="#f7df8a" stop-opacity=".9"/>
+                <stop offset="55%" stop-color="#f2c94c" stop-opacity=".35"/>
+                <stop offset="100%" stop-color="#0f0f1a" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#f7df8a" stop-opacity=".75"/>
+                <stop offset="100%" stop-color="#f7df8a" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <rect width="420" height="360" fill="transparent"/>
+            <ellipse cx="210" cy="150" rx="150" ry="130" fill="url(#glow)"/>
+            <polygon points="168,40 252,40 310,300 110,300" fill="url(#beam)" opacity=".55"/>
+            <circle cx="210" cy="128" r="46" fill="none" stroke="#f7df8a" stroke-width="1.4" opacity=".8"/>
+            <circle cx="210" cy="128" r="30" fill="none" stroke="#7fd4e8" stroke-width="1" opacity=".7" stroke-dasharray="4 5"/>
+            <circle cx="210" cy="128" r="62" fill="none" stroke="#f2c94c" stroke-width=".8" opacity=".4"/>
+            <path d="M210 300 C 150 260 140 210 210 172 C 280 210 270 260 210 300Z" fill="none" stroke="#e88ab0" stroke-width="1.3" opacity=".85"/>
+            <path d="M116 296 H304" stroke="#34345a" stroke-width="1"/>
+            <path d="M210 300 L210 340" stroke="#f2c94c" stroke-width="1" opacity=".6"/>
+            <text x="210" y="352" font-size="10" fill="#a6a3c2" text-anchor="middle" font-family="sans-serif">柔光罩 1.2m · 主光 45° · 色温 5300K</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap layout-main">
+      <div class="content-col">
+
+        <section class="section" id="overview">
+          <div class="section-head">
+            <h2>领域概览：什么叫无极圣光风格</h2>
+            <p>从主光、辅光、背景光三层拆解，套图之间的差异主要落在反光板与纱质服装的配合上。</p>
+          </div>
+          <p>无极圣光指的是一类以大面积柔光为主、几乎不产生硬阴影的拍摄方案。常见配置是 1.2 米八角柔光罩作主光，白色反光板补暗部，背景用低功率裸灯打出轮廓光。周于希无极圣光套图的多数组图沿用这套基础布光，差异集中在主光与模特的角度。</p>
+          <div class="grid-cards" style="margin-top:1.2rem;">
+            <div class="card">
+              <div class="meta">主光角度</div>
+              <h3>45° 侧逆光下的发丝轮廓</h3>
+              <p>柔光罩中心高度约 1.9 米，模特面部朝光偏 15°。发丝边缘出现 1 到 2 像素宽的亮边，是识别套图的关键。</p>
+            </div>
+            <div class="card">
+              <div class="meta">辅光方案</div>
+              <h3>反光板与纱质面料的反差</h3>
+              <p>银色反光板放到 1.6 米高度时，薄纱的褶皱纹理被压平；换白色反光板后纹理保留更完整。这一条在 10 月 22 日的组图里被反复验证。</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="featured">
+          <div class="section-head">
+            <h2>精选内容推荐：五组值得逐张对照的套图</h2>
+            <p>按光线可控程度与服装材质分类，每组给出拍摄日期与柔光罩相对位置。</p>
+          </div>
+          <div class="grid-cards">
+            <div class="card">
+              <div class="meta">2026-10-18 · 7 张</div>
+              <h3>白纱与双柔光罩的叠加</h3>
+              <p>主光与辅光分别置于模特左前、右前，形成对称的柔光效果。颈部的阴影过渡约 0.8 档，肩线清晰。</p>
+              <div class="tags"><span class="tagchip">白纱</span><span class="tagchip">双柔光</span></div>
+            </div>
+            <div class="card">
+              <div class="meta">2026-10-26 · 9 张</div>
+              <h3>浅金反光板下的无极圣光半身组</h3>
+              <p>浅金色反光板放在腰部以下，肤色偏暖 200K 左右。面部与背景亮度差约 2.5 档，适合看清轮廓光。</p>
+              <div class="tags"><span class="tagchip">浅金反光</span><span class="tagchip">半身</span></div>
+            </div>
+            <div class="card">
+              <div class="meta">2026-11-01 · 6 张</div>
+              <h3>全黑背景的强对比圣光</h3>
+              <p>背景光降至几乎关闭，仅保留轮廓灯。发丝边缘出现连续高光，衣料暗部保留少量蓝调细节。</p>
+              <div class="tags"><span class="tagchip">黑背景</span><span class="tagchip">轮廓光</span></div>
+            </div>
+            <div class="card">
+              <div class="meta">2026-11-05 · 8 张</div>
+              <h3>白色纱帘前景与柔光衰减</h3>
+              <p>纱帘位于镜头与模特之间约 55 厘米，整体对比度下降约 12%。左下角有轻微光斑，是纱帘褶皱的透光痕迹。</p>
+              <div class="tags"><span class="tagchip">前景纱帘</span><span class="tagchip">柔光衰减</span></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="latest">
+          <div class="section-head">
+            <h2>最新更新</h2>
+            <p>参数表更新时间与条目都可回溯，日期在 2026 年 10 月 9 日至 11 月 8 日之间。</p>
+          </div>
+          <ul class="compact-list">
+            <li><time datetime="2026-11-08">11月8日</time><a href="/#depth">09:42 版布光参数表补入柔光罩高度 1.9m 与 2.1m 两组对照数据</a></li>
+            <li><time datetime="2026-11-06">11月6日</time><a href="/#featured">新增 11 月 5 日白纱帘前景组图 8 张，并标注每张图的对比度变化</a></li>
+            <li><time datetime="2026-11-02">11月2日</time><a href="/#guide">体验指南补充银白反光板色温偏移对照表，覆盖 5200K 至 5600K</a></li>
+            <li><time datetime="2026-10-29">10月29日</time><a href="/#comments">评论区新增 14 条针对 10 月 22 日组图的用户反馈</a></li>
+          </ul>
+        </section>
+
+        <section class="section" id="categories">
+          <div class="section-head">
+            <h2>分类入口</h2>
+            <p>按拍摄方案与服装材质划分的频道，点击进入对应条目。</p>
+          </div>
+          <div class="tag-index">
+            <a href="/#featured">白纱柔光</a>
+            <a href="/#featured">浅金反光</a>
+            <a href="/#featured">黑背景轮廓光</a>
+            <a href="/#featured">纱帘前景</a>
+            <a href="/#depth">柔光罩高度对照</a>
+            <a href="/#depth">主光功率参数</a>
+            <a href="/#guide">反光板色温偏移</a>
+            <a href="/#guide">拍摄距离与裁切</a>
+            <a href="/#recommend">相似套图索引</a>
+            <a href="/#news">平台更新记录</a>
+            <a href="/#comments">用户实拍反馈</a>
+            <a href="/#faq">新手常见问题</a>
+          </div>
+        </section>
+
+        <section class="section" id="depth">
+          <div class="section-head">
+            <h2>深度解析：无极圣光靠柔光罩堆叠，还是靠反光板位置</h2>
+            <p>以 10 月 18 日与 11 月 1 日两组套图作对照，给出可以被反驳的具体判断。</p>
+          </div>
+          <div class="depth">
+            <p>先说结论：在同等功率下，反光板高度对画面质感的影响大于柔光罩数量。这个判断来自两组图里可核对的光比数据，不是主观喜好。</p>
+
+            <h3>案例时间线：两套图的拍摄参数差异</h3>
+            <ul class="timeline">
+              <li><time>10月18日 14:20</time>使用双柔光罩，主光与辅光各 400W，反光板放在腰部高度。面部亮部与暗部差约 2.1 档。</li>
+              <li><time>10月18日 14:52</time>撤掉第二柔光罩，反光板升至肩部高度，光比降到 1.6 档，纱质褶皱细节增加。</li>
+              <li><time>11月1日 10:05</time>单柔光罩加银色反光板，光比 1.4 档，但灰阶测试卡上中灰偏亮约 0.3 档。</li>
+            </ul>
+
+            <h3>说法差异：柔光罩数量与反光板位置</h3>
+            <div class="compare">
+              <div>
+                <h4>常见做法</h4>
+                <p>增加柔光罩数量来消除阴影，通常用两到三盏，但主光功率不降时，高光部位容易溢出。</p>
+              </div>
+              <div>
+                <h4>本组套图做法</h4>
+                <p>保留单盏主光，用反光板高度和角度控制暗部，把光比压在 1.6 档附近，保留面料纹理。</p>
+              </div>
+            </div>
+
+            <h3>可核对的判断拆解</h3>
+            <p>把“柔光更柔和”这个说法拆开，可核对的部分有三项：柔光罩直径、反光板距离、背景光功率。10 月 26 日套图里柔光罩直径从 1.2 米换到 1.5 米，模特面部的阴影边缘宽度由 3 像素增至 5 像素；反光板距离从 1 米拉到 1.5 米后，暗部亮度下降约 0.4 档。三项参数一起看，比单独讨论柔光罩大小更能解释画面差别。</p>
+            <p>反过来说，如果背景光功率太高，柔光罩再大也会被轮廓光冲淡。11 月 1 日黑背景那组刻意把背景光压到 1/16 功率，轮廓光的边缘才被保留下来。这条判断可以被反驳：换用更小的柔光罩并靠近模特，同样能提高轮廓清晰度，只是阴影过渡会变硬。</p>
+          </div>
+        </section>
+
+        <section class="section" id="guide">
+          <div class="section-head">
+            <h2>体验指南：按四步核对一套图是否适合参考</h2>
+            <p>给想复现无极圣光效果的人，顺序从看参数到试拍。</p>
+          </div>
+          <ol class="steps">
+            <li><strong>先看拍摄日期与版本。</strong>参数表里 10 月 22 日之前和之后的反光板高度标注方式不同，前者写相对位置，后者写绝对高度。</li>
+            <li><strong>对照柔光罩直径。</strong>1.2 米与 1.5 米在面部阴影过渡上差 2 像素左右，近距离半身图更容易看出来。</li>
+            <li><strong>检查背景光功率。</strong>黑背景轮廓组与白纱组的背景光差 1.5 档以上，混用参数会直接导致过曝。</li>
+            <li><strong>用灰卡试拍一次。</strong>把反光板放在肩部高度，拍一张灰卡，确认中灰没有偏亮或偏暗，再替换服装。</li>
+          </ol>
+          <div class="quote-card" style="margin-top:1.3rem;">
+            “无极圣光不是越亮越好，面料纹理留住了才算数。”
+            <span>—— 10 月 22 日组图评论区整理，来自用户 @光比观察</span>
+          </div>
+        </section>
+
+        <section class="section faq" id="faq">
+          <div class="section-head">
+            <h2>常见问答</h2>
+            <p>围绕柔光、反光板与参数表的实际问题。</p>
+          </div>
+          <details>
+            <summary>无极圣光套图里柔光罩一般放多高？</summary>
+            <p>多数组图把柔光罩中心放在 1.9 米左右，模特站姿时略高于头顶。如果拍半身，低于 1.75 米会让颈部阴影明显变重。</p>
+          </details>
+          <details>
+            <summary>银色反光板和白色反光板差别在哪？</summary>
+            <p>银色反光板反射率更高，暗部提升约 0.6 档，但薄纱的褶皱纹理会被压平。白色反光板提升约 0.3 档，纹理保留更好；10 月 26 日那组用的就是白色。</p>
+          </details>
+          <details>
+            <summary>拍黑背景轮廓光要关掉背景灯吗？</summary>
+            <p>不需要完全关闭。11 月 1 日组图把背景灯降到 1/16 功率，轮廓边缘仍然清晰。完全关掉会让发丝边缘出现断续高光，反而不自然。</p>
+          </details>
+          <details>
+            <summary>纱帘放在镜头前面会损失多少细节？</summary>
+            <p>按 11 月 5 日组图的测量，距离镜头 55 厘米时整体对比度下降约 12%，细节损失主要在暗部。把纱帘拉近到 30 厘米，下降幅度会扩大到约 20%。</p>
+          </details>
+          <details>
+            <summary>参数表里的“柔光衰减”指什么？</summary>
+            <p>指光线穿过纱帘、薄纱服装等半透明材质后亮度的下降比例。11 月 5 日组图记录了 18% 与 12% 两个数值，前者对应双层纱帘，后者对应单层。</p>
+          </details>
+        </section>
+
+        <section class="section" id="comments">
+          <div class="section-head">
+            <h2>用户评论</h2>
+            <p>来自套图条目下的反馈，语气不统一，包含中性意见。</p>
+          </div>
+          <div class="comments">
+            <div class="comment"><span class="who">夜航灯</span>10 月 18 日双柔光那组，肩线过渡确实比后面单灯的好，但两张图的白平衡不一致，第二张偏黄。<span class="where">· 针对 10-18 组图</span></div>
+            <div class="comment"><span class="who">灰卡测试员</span>11 月 1 日黑背景那组中灰偏亮 0.3 档，我按参数表复现时也遇到了，建议标注一下后期校正。<span class="where">· 针对 11-01 组图</span></div>
+            <div class="comment"><span class="who">白纱控</span>纱帘前景那组左下角光斑挺好看的，不是瑕疵。整体对比度降下来反而更接近无极圣光的安静感。</div>
+            <div class="comment"><span class="who">参数派</span>柔光罩高度从 1.9 米改到 2.1 米后，面部阴影边缘我量着只差 1 像素，跟表里写的 2 像素对不上。<span class="where">· 针对 11-08 参数更新</span></div>
+            <div class="comment"><span class="who">路过观众</span>图不错，就是参数表对非摄影的人不太友好，柔光衰减那行看不太懂，希望有更直观的示意。</div>
+            <div class="comment"><span class="who">反光板依赖</span>把银色反光板换成白色以后，纱的纹理确实清楚了，这条我验证过，10 月 26 日那组能对上。</div>
+          </div>
+        </section>
+
+        <section class="section" id="news">
+          <div class="section-head">
+            <h2>相关资讯</h2>
+            <p>只记录可核对的条目，日期明确，与套图本身不重复。</p>
+          </div>
+          <ul class="compact-list">
+            <li><time datetime="2026-10-14">10月14日</time><a href="/#depth">柔光罩厂商发布 1.5 米八角罩新版，扩散布密度提高 8%</a></li>
+            <li><time datetime="2026-10-21">10月21日</time><a href="/#faq">摄影社区张贴灰卡测试流程，补充中灰判断的拍摄距离建议</a></li>
+            <li><time datetime="2026-10-31">10月31日</time><a href="/#guide">某品牌反光板色温手册更新，银白两色分别标注反射率</a></li>
+            <li><time datetime="2026-11-04">11月4日</time><a href="/#comments">图集讨论区新增一批实拍复现记录，包含失败案例两张</a></li>
+          </ul>
+        </section>
+
+        <section class="section" id="recommend">
+          <div class="section-head">
+            <h2>相关推荐</h2>
+            <p>同类视觉方向与可对照条目。</p>
+          </div>
+          <div class="tag-index">
+            <a href="/#featured">柔光罩高度 1.9 米对照</a>
+            <a href="/#featured">白纱前景透光测试</a>
+            <a href="/#depth">黑背景轮廓光参数</a>
+            <a href="/#guide">银白反光板选择指南</a>
+            <a href="/#comments">复现失败案例整理</a>
+            <a href="/#latest">11 月参数表修订</a>
+          </div>
+        </section>
+
+        <section class="section" id="trust">
+          <div class="section-head">
+            <h2>可信度分层：哪些信息可直接用，哪些只作参考</h2>
+            <p>把已核对、待复核与个人经验分开，避免混用。</p>
+          </div>
+          <div class="grid-cards">
+            <div class="card">
+              <div class="meta">已核对</div>
+              <h3>柔光罩直径与阴影边缘宽度</h3>
+              <p>10 月 18 日 1.2 米罩比 11 月 5 日 1.5 米罩的面部阴影边缘窄约 2 像素，这是逐张比对的结果，可复现。</p>
+            </div>
+            <div class="card">
+              <div class="meta">待复核</div>
+              <h3>反光板高度 1.6 米的色温影响</h3>
+              <p>有用户提到银色反光板放在 1.6 米时画面偏冷，但尚未完成对照组测试，暂不作为固定参数。</p>
+            </div>
+            <div class="card">
+              <div class="meta">个人经验</div>
+              <h3>纱帘距离的对比度判断</h3>
+              <p>55 厘米与 30 厘米的对比度下降比例来自单次拍摄，角度变化会改变结果，仅作参考。</p>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <aside class="side-col" aria-label="侧栏导航与速览">
+        <div class="side-card">
+          <h3>页面导航</h3>
+          <ul class="side-nav" id="sideNav">
+            <li><a href="/#overview">领域概览</a></li>
+            <li><a href="/#featured">精选内容推荐</a></li>
+            <li><a href="/#latest">最新更新</a></li>
+            <li><a href="/#categories">分类入口</a></li>
+            <li><a href="/#depth">深度解析</a></li>
+            <li><a href="/#guide">体验指南</a></li>
+            <li><a href="/#faq">常见问答</a></li>
+            <li><a href="/#comments">用户评论</a></li>
+            <li><a href="/#news">相关资讯</a></li>
+            <li><a href="/#recommend">相关推荐</a></li>
+            <li><a href="/#trust">可信度分层</a></li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h3>参数速记</h3>
+          <ul>
+            <li>柔光罩中心高度：1.9 米</li>
+            <li>主光角度：45° 侧逆</li>
+            <li>色温参考：5300K</li>
+            <li>常用光比：1.4–1.6 档</li>
+            <li>背景光功率：1/16 起</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/#top" style="margin-bottom:.8rem;">
+            <svg viewBox="0 0 40 40" aria-hidden="true" style="width:28px;height:28px;">
+              <rect width="40" height="40" rx="10" fill="#252542"/>
+              <path d="M20 6l3.4 9.2 9.8 1-7.4 6.3 2.2 9.7L20 26.5l-8 5.7 2.2-9.7-7.4-6.3 9.8-1z" fill="#f2c94c"/>
+              <circle cx="20" cy="20" r="4.2" fill="#0f0f1a"/>
+            </svg>
+            <span class="brand-text">周于希无极圣光套图</span>
+          </a>
+          <p>整理柔光罩、反光板与服装材质之间的关系，给可对照的拍摄参数与逐张记录。</p>
+        </div>
+        <div class="footer-col">
+          <h4>内容频道</h4>
+          <ul>
+            <li><a href="/#overview">领域概览</a></li>
+            <li><a href="/#featured">精选套图</a></li>
+            <li><a href="/#latest">最新更新</a></li>
+            <li><a href="/#categories">分类入口</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>解析与指南</h4>
+          <ul>
+            <li><a href="/#depth">深度解析</a></li>
+            <li><a href="/#guide">体验指南</a></li>
+            <li><a href="/#faq">常见问答</a></li>
+            <li><a href="/#trust">可信度分层</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>互动与资讯</h4>
+          <ul>
+            <li><a href="/#comments">用户评论</a></li>
+            <li><a href="/#news">相关资讯</a></li>
+            <li><a href="/#recommend">相关推荐</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>示例数据说明：套图参数、用户评论与更新日期均为演示内容，不构成拍摄效果承诺。页脚更新时间 2026-11-08，对应正文参数表 09:42 版本。</span>
+        <span>© 2026 周于希无极圣光套图 · 静态展示页面</span>
+      </div>
+    </div>
+  </footer>
+
+  <button id="toTop" aria-label="回到顶部" title="回到顶部">↑</button>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "周于希无极圣光套图",
+    "description": "主题图集与光线参数观察页，整理柔光罩、反光板与材质之间的关系。",
+    "inLanguage": "zh-CN"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "无极圣光套图里柔光罩一般放多高？",
+        "acceptedAnswer": { "@type": "Answer", "text": "多数组图把柔光罩中心放在 1.9 米左右，模特站姿时略高于头顶。拍半身时低于 1.75 米会让颈部阴影明显变重。" }
+      },
+      {
+        "@type": "Question",
+        "name": "银色反光板和白色反光板差别在哪？",
+        "acceptedAnswer": { "@type": "Answer", "text": "银色反光板反射率更高，暗部提升约 0.6 档，但薄纱褶皱纹理会被压平。白色反光板提升约 0.3 档，纹理保留更好。" }
+      },
+      {
+        "@type": "Question",
+        "name": "拍黑背景轮廓光要关掉背景灯吗？",
+        "acceptedAnswer": { "@type": "Answer", "text": "不需要完全关闭。把背景灯降到 1/16 功率，轮廓边缘仍然清晰。完全关掉会让发丝边缘出现断续高光。" }
+      },
+      {
+        "@type": "Question",
+        "name": "纱帘放在镜头前面会损失多少细节？",
+        "acceptedAnswer": { "@type": "Answer", "text": "距离镜头 55 厘米时整体对比度下降约 12%，细节损失主要在暗部。拉近到 30 厘米，下降幅度会扩大到约 20%。" }
+      },
+      {
+        "@type": "Question",
+        "name": "参数表里的柔光衰减指什么？",
+        "acceptedAnswer": { "@type": "Answer", "text": "指光线穿过纱帘、薄纱服装等半透明材质后亮度的下降比例。双层纱帘对应 18%，单层对应 12%。" }
+      }
+    ]
+  }
+  </script>
+
+  <script>
+    (function () {
+      var menuToggle = document.getElementById('menuToggle');
+      var mainNav = document.getElementById('mainNav');
+      if (menuToggle && mainNav) {
+        menuToggle.addEventListener('click', function () {
+          var open = mainNav.classList.toggle('open');
+          menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        });
+        mainNav.querySelectorAll('a').forEach(function (link) {
+          link.addEventListener('click', function () {
+            if (window.innerWidth <= 760) {
+              mainNav.classList.remove('open');
+              menuToggle.setAttribute('aria-expanded', 'false');
+            }
+          });
+        });
+      }
+
+      var searchInput = document.getElementById('siteSearch');
+      var feedback = document.getElementById('searchFeedback');
+      if (searchInput && feedback) {
+        var timer = null;
+        searchInput.addEventListener('input', function () {
+          clearTimeout(timer);
+          var q = searchInput.value.trim();
+          if (!q) { feedback.classList.remove('show'); feedback.textContent = ''; return; }
+          timer = setTimeout(function () {
+            var matches = [];
+            document.querySelectorAll('main h2, main h3, main summary, main a').forEach(function (el) {
+              var text = (el.textContent || '').trim();
+              if (text && text.indexOf(q) !== -1 && matches.length < 6) {
+                matches.push(text.slice(0, 28));
+              }
+            });
+            if (matches.length) {
+              feedback.innerHTML = '找到 ' + matches.length + ' 条相关：<br>' + matches.map(function (m) { return '· ' + m; }).join('<br>');
+            } else {
+              feedback.textContent = '没有找到与“' + q + '”匹配的条目，可试试“柔光”“反光板”或“纱帘”。';
+            }
+            feedback.classList.add('show');
+          }, 180);
+        });
+        document.addEventListener('click', function (e) {
+          if (!e.target.closest('.search-box')) feedback.classList.remove('show');
+        });
+      }
+
+      var toTop = document.getElementById('toTop');
+      if (toTop) {
+        window.addEventListener('scroll', function () {
+          if (window.scrollY > 480) toTop.classList.add('show');
+          else toTop.classList.remove('show');
+        }, { passive: true });
+        toTop.addEventListener('click', function () {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+
+      var sideLinks = document.querySelectorAll('#sideNav a');
+      var sections = [];
+      sideLinks.forEach(function (a) {
+        var id = a.getAttribute('href').replace('/#', '');
+        var sec = document.getElementById(id);
+        if (sec) sections.push({ id: id, el: sec, link: a });
+      });
+      if ('IntersectionObserver' in window && sections.length) {
+        var io = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              sideLinks.forEach(function (l) { l.classList.remove('active'); });
+              var found = sections.find(function (s) { return s.el === entry.target; });
+              if (found) found.link.classList.add('active');
+            }
+          });
+        }, { rootMargin: '-30% 0px -55% 0px', threshold: 0.01 });
+        sections.forEach(function (s) { io.observe(s.el); });
+      }
+    })();
+  </script>
+</body>
+</html>
